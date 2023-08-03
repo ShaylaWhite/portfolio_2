@@ -1,5 +1,8 @@
 /* style.css */
 
+/* Import the custom signature font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -39,7 +42,7 @@ body {
 .id-card h1 {
   margin: 10px 0;
   font-size: 28px; /* Adjust the font size as needed */
-  font-family: 'Your Custom Signature Font', cursive; /* Use a custom font for the signature */
+  font-family: 'Dancing Script', cursive; /* Use the custom signature font */
   letter-spacing: 2px; /* Increase letter spacing for a more natural signature flow */
   color: #333; /* Use an appropriate color for the signature */
 }
