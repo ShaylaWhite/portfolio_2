@@ -10,3 +10,15 @@ body {
     min-height: 100vh;
     background-color: #f0f0f0; /* Optional: Set background color */
   }
+  
+  .container {
+    max-width: 400px; /* Adjust the width of the container as needed */
+  }
+  
+  .id-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* Add more styles to make it resemble a driver's license ID card */
+  }
