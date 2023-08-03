@@ -38,7 +38,10 @@ body {
 
 .id-card h1 {
   margin: 10px 0;
-  font-size: 20px; /* Adjust the font size as needed */
+  font-size: 28px; /* Adjust the font size as needed */
+  font-family: 'Your Custom Signature Font', cursive; /* Use a custom font for the signature */
+  letter-spacing: 2px; /* Increase letter spacing for a more natural signature flow */
+  color: #333; /* Use an appropriate color for the signature */
 }
 
 .id-card p {
