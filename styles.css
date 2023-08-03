@@ -4,23 +4,21 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden; /* Prevent scrolling */
+  background-color: #f0f0f0; /* Optional: Set background color */
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f0f0f0; /* Optional: Set background color */
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .container {
   max-width: 400px; /* Adjust the width of the container as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-  
+
 .id-card {
   text-align: center; /* Center the content inside the ID card */
   background-color: #fff;
@@ -29,6 +27,7 @@ body {
   border-radius: 10px;
   /* Add more styles to make it resemble a driver's license ID card */
 }
+
 .id-card img {
   display: block; /* Ensure the image doesn't have extra spacing */
   margin: 0 auto 10px; /* Center the image horizontally and add some space below */
@@ -48,12 +47,3 @@ body {
 }
 
 /* Add more styles for the rest of the ID card content as needed */
-
-footer {
-  text-align: center;
-  padding: 5px;
-  background-color: #f0f0f0;
-  border-top: 1px solid #ccc;
-  margin-top: 20px; /* Adjust the space between ID card and footer as needed */
-  font-size: 12px; /* Adjust the font size for the footer */
-}
