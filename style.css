@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the body and HTML as flex containers */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+/* Floating Menu styles */
+.floating-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff; /* Cool looking blue */
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+}
+
+.floating-menu .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.floating-menu .nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.floating-menu .nav-links li {
+    margin-right: 20px;
+}
+
+.floating-menu .nav-links li:last-child {
+    margin-right: 0;
+}
+
+.floating-menu .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Content section styles */
+.content {
+    flex: 1; /* Take up all available vertical space */
+    min-height: 100vh; /* Set each section to be at least the height of the viewport */
+    padding: 50px 0; /* Reduced padding top and bottom */
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.landing-image {
+    width: 250px; /* Increased width */
+    height: 250px; /* Increased height */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
